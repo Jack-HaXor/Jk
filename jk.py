@@ -142,11 +142,11 @@ def psb(z):
         
 os.system("clear")
 import requests,os
-os.system('espeak -a 400 "তোমার নাম কি  & whats Your Name"')
+os.system('espeak -a 400 " তোমার    নাম    কি  "')
 fuckx=str(input("\033[1;97m[\033[92;1m?\033[1;97m] ENTER YOUR NAME :\033[1;97m "))
 name=fuckx.upper()
 print ('')
-os.system('espeak -a 400 "WELCOME MY TOOLS & স্বাগতম আমার টুলস"' +name)
+os.system('espeak -a 400 "WELLCAME TO   FACEBOOK   HACK   ME  "' +name)
 psb('\033[1;97m[\033[92;1m•\033[1;97m]\033[1;97m WELCOME MY TOOLS \033[1;94m '+name)
 print('')
 
@@ -241,13 +241,13 @@ def FD():
 
     None('\n\x1b[1;97mEXIT\x1b[0;97m')
 
-def abir():
+def jack():
 
     os.system('clear')
 
     jalan(logo)
     
-    os.system('espeak -a 300 "ASSALAAAMUUU AALAIKUMM । আমার নাম জ্যেক।    আমার টুল ব্যবহার করার জন্য স্বাগতম"')
+    os.system('espeak -a 300 "ASSALAAAMUUU  AALAIKUMM । আমার  নাম   জ্যেক।    আমার  টুল  ব্যবহার  করার  জন্য  স্বাগতম"')
     
 
     print("")
@@ -801,7 +801,7 @@ def separate():
     print('\033[1;32mNew file saved as: /sdcard/'+new_save)
     print(47*'-')
     input('\033[1;32mPress enter to back ')
-    abir()
+    jack()
 
 
 
