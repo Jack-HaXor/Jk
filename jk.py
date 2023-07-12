@@ -146,7 +146,7 @@ os.system('espeak -a 400 " তোমার    নাম    কি  "')
 fuckx=str(input("\033[1;97m[\033[92;1m?\033[1;97m] ENTER YOUR NAME :\033[1;97m "))
 name=fuckx.upper()
 print ('')
-os.system('espeak -a 400 " TRY  HACK   ME  "' +name) Hacker
+os.system('espeak -a 400 " TRY  HACK   ME  "' +name)
 psb('\033[1;97m[\033[92;1m•\033[1;97m]\033[1;97m WELCOME MY TOOLS \033[1;94m '+name)
 print('')
 
