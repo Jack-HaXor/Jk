@@ -190,7 +190,7 @@ logo3 = ("""
 \033[1;32m┌───────────────────────────────────────┐   V4
 \033[1;33m│ [✓] Admin   : JaCK HaXor\033[1;32m       │
 \033[1;34m│ [✓] Github  :\033[41m\033[1;37mJack-HaXor\x1b[0m                 │
-\033[1;35m│ [✓] Whtsapp : 017&+#&_#(_             │
+\033[1;35m│ [✓] Whtsapp : 01757254***             │
 \033[1;36m│ [✓] Youtube : \x1b[1;32mDarkFixNeT67\x1b[1;97m            │               
 \033[1;32m└───────────────────────────────────────┘   V4""")
 
@@ -247,7 +247,7 @@ def abir():
 
     jalan(logo)
     
-    os.system('espeak -a 300 "ASSALAAAMUUU AALAIKUMM"')
+    os.system('espeak -a 300 "ASSALAAAMUUU AALAIKUMM I AM JACK   TUMI  KAMON ASO . AMI TOOL USE KORTE TOMAKE EE HELP KORBO.. AMADER TEAM ER NAME DARK  FIXNET  67 .DHONNOBHAD "')
     
 
     print("")
@@ -443,7 +443,7 @@ logo =("""
 \033[1;32m┌───────────────────────────────────────┐   
 \033[1;33m│ [✓] Admin   : JacK HaXor\033[1;32m       │
 \033[1;34m│ [✓] Github  :\033[41m\033[1;37mJack-HaXor\x1b[0m                 │
-\033[1;35m│ [✓] Whtsapp : 01863517***             │
+\033[1;35m│ [✓] Whtsapp : 01757254***             │
 \033[1;36m│ [✓] Youtube : \x1b[1;32mDarkFxNeT67\x1b[1;97m            │               
 \033[1;32m└───────────────────────────────────────┘   
 \033[1;94m═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━═━══
@@ -606,7 +606,7 @@ def i():
     print(logo)
    
 
-    passx = int(input("[*] Type 0 and Enter : "))
+    passx = int(input("[*] Type👉 0  and Enter : "))
 
     HamiiID = []
 
@@ -778,7 +778,7 @@ def separate():
     print(47*'-')
     if file_name == '':
         main_menu()
-    print ('\033[1;32mFor Example /sdcard/ABIR.txt\033[0;97m')
+    print ('\033[1;32mFor Example /sdcard/JK.txt\033[0;97m')
     print (47*'-')
     new_save = input('\033[1;37mSave New file Name: \033[0;97m')
     if "/sdcard/" not in new_save:
@@ -801,10 +801,10 @@ def separate():
     print('\033[1;32mNew file saved as: /sdcard/'+new_save)
     print(47*'-')
     input('\033[1;32mPress enter to back ')
-    abir()
+    jack()
 
 
 
-abir()
+jack()
 
  
